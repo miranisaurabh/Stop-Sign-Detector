@@ -4,8 +4,8 @@ import cv2
 import numpy as np
 import os
 
-path1 = r'C:/Users/mirani/Documents/ECE 276A/Project 1/ECE276A_PR1 (1)/ECE276A_PR1/hw1_starter_code/merge_data2/'
-path2 = r'C:/Users/mirani/Documents/ECE 276A/Project 1/ECE276A_PR1 (1)/ECE276A_PR1/hw1_starter_code/labelled_imgs/'
+path1 = r'C:/Users/mirani/Documents/merge_data2/'
+path2 = r'C:/Users/mirani/Documents/labelled_imgs/'
 #f = glob(path)
 X = np.zeros([1,3])
 Y_temp = np.zeros([1,1])
