@@ -1,8 +1,3 @@
-'''
-ECE276A WI20 HW1
-Stop Sign Detector
-'''
-
 import os, cv2
 from skimage.measure import label, regionprops
 import numpy as np
@@ -69,7 +64,6 @@ class StopSignDetector():
 			Outputs:
 				mask_img - a binary image with 1 if the pixel in the original image is red and 0 otherwise
 		'''
-		# YOUR CODE HERE
 
 		#Use Gamma correction
 		gamma = 2.0
@@ -106,7 +100,6 @@ class StopSignDetector():
 				
 			Our solution uses xy-coordinate instead of rc-coordinate. More information: http://scikit-image.org/docs/dev/user_guide/numpy_images.html#coordinate-conventions
 		'''
-		# YOUR CODE HERE
 
 		#Get the size of image
 		x_max = np.shape(img)[1]
