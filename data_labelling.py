@@ -5,9 +5,9 @@ import cv2
 import numpy as np
 import os
 
-path = r'C:\Users\mirani\Documents\ECE 276A\Project 1\ECE276A_PR1 (1)\ECE276A_PR1\hw1_starter_code\trainset_mini2/*'
+path = r'C:/Users/mirani/Documents/trainset_mini2/*'
 f = glob(path)
-path = r'C:/Users/mirani/Documents/ECE 276A/Project 1/ECE276A_PR1 (1)/ECE276A_PR1/hw1_starter_code/trainlables/'
+path = r'C:/Users/mirani/Documents/trainlables/'
 out_f = path
 
 for fname in f:
